@@ -1,0 +1,23 @@
+Started by an SCM change
+Started by an SCM change
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Build1
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/kirankumarclk123/kiranrepo.git # timeout=10
+Fetching upstream changes from https://github.com/kirankumarclk123/kiranrepo.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/kirankumarclk123/kiranrepo.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 4036bb35cc312edf60827f02e2a7cdb96eefaec8 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4036bb35cc312edf60827f02e2a7cdb96eefaec8
+Commit message: "Delete test1"
+ > git rev-list --no-walk dad62b0be683fd88de8d3857cc86dc7956d52010 # timeout=10
+[Build1] $ /bin/sh -xe /tmp/jenkins7197546377985549072.sh
++ cd /var/lib/jenkins/workspace/Build1
++ make
+make: 'abc.exe' is up to date.
+Finished: SUCCESS

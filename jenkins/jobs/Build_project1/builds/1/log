@@ -1,0 +1,27 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building remotely on [8mha:////4MUwLwc2zEPKj4XdGAjUvzHueI7okIRBkrIwIBnYYTgvAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgYp/eT83ILSktQi/azUvOzMvGLd4pzEslRdA0MAk/pnuc8AAAA=[0mjenkins-slave-01 in workspace /home/jenkins-slave-01/workspace/Build_project1
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/kirankumarclk123/kiranrepo.git
+ > git init /home/jenkins-slave-01/workspace/Build_project1 # timeout=10
+Fetching upstream changes from https://github.com/kirankumarclk123/kiranrepo.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/kirankumarclk123/kiranrepo.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/kirankumarclk123/kiranrepo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/kirankumarclk123/kiranrepo.git # timeout=10
+Fetching upstream changes from https://github.com/kirankumarclk123/kiranrepo.git
+ > git fetch --tags --progress https://github.com/kirankumarclk123/kiranrepo.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2a6b683ab0840330ff4617f8f93ab806844ce332 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2a6b683ab0840330ff4617f8f93ab806844ce332
+Commit message: "deleting files"
+First time build. Skipping changelog.
+[Build_project1] $ /bin/sh -xe /tmp/jenkins137391740406339218.sh
++ cd /var/lib/jenkins/workspace/Build_project1/
+/tmp/jenkins137391740406339218.sh: line 2: cd: /var/lib/jenkins/workspace/Build_project1/: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

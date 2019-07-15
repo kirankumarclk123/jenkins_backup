@@ -1,0 +1,13 @@
+Started by upstream project "[8mha:////4M+tF40NrTjS69i5GDeOsPAter2NuoaS5oiVSlhhNyzbAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JH2X1IKc/Mr4gqL8rNTkEn0ANAOBFckAAAA=[0mDeploy_project" build number [8mha:////4KakC4DUuIrM/+kxBe5fwWPgUpUdJbII1UwkGf5Y1YnSAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBlH9rPwkfZfUgpz8yviCovys1OQSfWMA8vAAucoAAAA=[0m3
+originally caused by:
+ Started by upstream project "[8mha:////4Ic1QoMXPb8GzT1T105q4xroobyx2DDycnfx628XJk2EAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JH2n0syclPiCovys1OQSQ30AQVPMeckAAAA=[0mBuild_project1" build number [8mha:////4J7mTiCfz52JY9wnJ/BecLdqnIcm3vDjBdpLaeVmBz6XAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBlH9rPwkfafSzJyU+IKi/KzU5BJDfXMACPxunsoAAAA=[0m7
+ originally caused by:
+  Started by user unknown or anonymous
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Test_project
+[Test_project] $ /bin/sh -xe /tmp/jenkins8141103144930902448.sh
++ date
+Sat Jul 13 14:18:09 UTC 2019
++ echo 'Test job complatd successful'
+Test job complatd successful
+Finished: SUCCESS

@@ -1,0 +1,9 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Test_project
+[Test_project] $ /bin/sh -xe /tmp/jenkins3913908012323666506.sh
++ date
+Sat Jul 13 11:54:06 UTC 2019
++ echo 'Test job complatd successful'
+Test job complatd successful
+Finished: SUCCESS

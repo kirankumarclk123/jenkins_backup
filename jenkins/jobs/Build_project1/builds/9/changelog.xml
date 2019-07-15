@@ -1,0 +1,11 @@
+commit 0cd04af990dd6c8adbd747980f2001c4e6bc37ae
+tree 3f44ac9ab0b102b9a65aa34c060855d30e767978
+parent fbb2205dc5032532248e9094f6811bbdf90df936
+author kirankumarclk123 <52616610+kirankumarclk123@users.noreply.github.com> 2019-07-13 21:07:51 +0530
+committer GitHub <noreply@github.com> 2019-07-13 21:07:51 +0530
+
+    factorial.c
+
+    am modifing the factorial file
+
+:100644 100644 b23226424d8502ab0fef49b72cd628c0946917c8 e849cd4a3c87aa3d847226ce3051a11adfbc8c10 M	factorial.c

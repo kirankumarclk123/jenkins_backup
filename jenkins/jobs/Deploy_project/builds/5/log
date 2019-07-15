@@ -1,0 +1,10 @@
+Started by upstream project "[8mha:////4Ic1QoMXPb8GzT1T105q4xroobyx2DDycnfx628XJk2EAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JH2n0syclPiCovys1OQSQ30AQVPMeckAAAA=[0mBuild_project1" build number [8mha:////4LyMplO+qdd8CwmKRkIiBlCNhbFwUvV8uAjlXxUWFl+NAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBlH9rPwkfafSzJyU+IKi/KzU5BJDfUsAD9HWecoAAAA=[0m9
+originally caused by:
+ Started by GitHub push by kirankumarclk123
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Deploy_project
+[Deploy_project] $ /bin/sh -xe /tmp/jenkins6245908211508963725.sh
++ echo 'deploy is done'
+deploy is done
+Triggering a new build of [8mha:////4P2geq5eM1h8XeCb2ylVisnrDTyNRPKHdFifNnrt+xJjAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+iGpxSXxBUX5WanJJfoAGNT7TscAAAA=[0mTest_project
+Finished: SUCCESS

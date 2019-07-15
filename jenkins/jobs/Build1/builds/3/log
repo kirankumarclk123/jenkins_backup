@@ -1,0 +1,39 @@
+Started by user [8mha:////4C9QShmUdfYUoOJsAUXQUqqcteKIzZ5/psskdsG3H6/FAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYB/dLi1CL97MyixLzs0tzEIgDfy//OxQAAAA==[0mKirankumar S
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Build1
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/kirankumarclk123/kiranrepo.git # timeout=10
+Fetching upstream changes from https://github.com/kirankumarclk123/kiranrepo.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/kirankumarclk123/kiranrepo.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision c9ba696c0f8e7111eb942fb79c438f10caa114b0 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c9ba696c0f8e7111eb942fb79c438f10caa114b0
+Commit message: "Delete main.o"
+ > git rev-list --no-walk c9ba696c0f8e7111eb942fb79c438f10caa114b0 # timeout=10
+[Build1] $ /bin/sh -xe /tmp/jenkins6639845553743965544.sh
++ cd /var/lib/jenkins/workspace/Build1
++ make
+gcc -c big3.c
+cc    -c -o main.o main.c
+main.c:1:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ main()
+ ^~~~
+main.c: In function ‘main’:
+main.c:3:1: warning: implicit declaration of function ‘big’ [-Wimplicit-function-declaration]
+ big();
+ ^~~
+main.c:4:1: warning: implicit declaration of function ‘factorial1’ [-Wimplicit-function-declaration]
+ factorial1();
+ ^~~~~~~~~~
+main.c:5:1: warning: implicit declaration of function ‘polin’ [-Wimplicit-function-declaration]
+ polin();
+ ^~~~~
+gcc -c factorial.c
+gcc -c palindrome.c
+gcc -o abc.exe big3.o main.o factorial.o palindrome.o
+Finished: SUCCESS

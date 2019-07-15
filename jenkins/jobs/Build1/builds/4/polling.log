@@ -1,0 +1,10 @@
+Started on Jul 12, 2019 7:47:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision c9ba696c0f8e7111eb942fb79c438f10caa114b0 (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h https://github.com/kirankumarclk123/kiranrepo.git # timeout=10
+Found 1 remote heads on https://github.com/kirankumarclk123/kiranrepo.git
+[poll] Latest remote head revision on refs/heads/master is: 2a6b683ab0840330ff4617f8f93ab806844ce332
+Done. Took 0.1 sec
+Changes found

@@ -1,0 +1,27 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Build_project1
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/kirankumarclk123/kiranrepo.git
+ > git init /var/lib/jenkins/workspace/Build_project1 # timeout=10
+Fetching upstream changes from https://github.com/kirankumarclk123/kiranrepo.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/kirankumarclk123/kiranrepo.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/kirankumarclk123/kiranrepo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/kirankumarclk123/kiranrepo.git # timeout=10
+Fetching upstream changes from https://github.com/kirankumarclk123/kiranrepo.git
+ > git fetch --tags --progress https://github.com/kirankumarclk123/kiranrepo.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2a6b683ab0840330ff4617f8f93ab806844ce332 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2a6b683ab0840330ff4617f8f93ab806844ce332
+Commit message: "deleting files"
+ > git rev-list --no-walk 2a6b683ab0840330ff4617f8f93ab806844ce332 # timeout=10
+[Build_project1] $ /bin/sh -xe /tmp/jenkins3832874625956829114.sh
++ cd /home/jenkins-slave-01/workspace/Build_project1
+/tmp/jenkins3832874625956829114.sh: line 2: cd: /home/jenkins-slave-01/workspace/Build_project1: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

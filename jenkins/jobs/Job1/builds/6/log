@@ -1,0 +1,49 @@
+Started by user [8mha:////4C9QShmUdfYUoOJsAUXQUqqcteKIzZ5/psskdsG3H6/FAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYB/dLi1CL97MyixLzs0tzEIgDfy//OxQAAAA==[0mKirankumar S
+Running as SYSTEM
+Building remotely on [8mha:////4MUwLwc2zEPKj4XdGAjUvzHueI7okIRBkrIwIBnYYTgvAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgYp/eT83ILSktQi/azUvOzMvGLd4pzEslRdA0MAk/pnuc8AAAA=[0mjenkins-slave-01 in workspace /home/jenkins-slave-01/workspace/Job1
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/kirankumarclk123/kiranrepo.git
+ > git init /home/jenkins-slave-01/workspace/Job1 # timeout=10
+Fetching upstream changes from https://github.com/kirankumarclk123/kiranrepo.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/kirankumarclk123/kiranrepo.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/kirankumarclk123/kiranrepo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/kirankumarclk123/kiranrepo.git # timeout=10
+Fetching upstream changes from https://github.com/kirankumarclk123/kiranrepo.git
+ > git fetch --tags --progress https://github.com/kirankumarclk123/kiranrepo.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2a6b683ab0840330ff4617f8f93ab806844ce332 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2a6b683ab0840330ff4617f8f93ab806844ce332
+Commit message: "deleting files"
+ > git rev-list --no-walk c9ba696c0f8e7111eb942fb79c438f10caa114b0 # timeout=10
+First time build. Skipping changelog.
+[Job1] $ /bin/sh -xe /tmp/jenkins752694606899730031.sh
++ cd /home/jenkins-slave-01/workspace/Job1
++ make
+gcc -c big3.c
+cc    -c -o main.o main.c
+main.c:1:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ main()
+ ^~~~
+main.c: In function ‘main’:
+main.c:3:1: warning: implicit declaration of function ‘big’ [-Wimplicit-function-declaration]
+ big();
+ ^~~
+main.c:4:1: warning: implicit declaration of function ‘factorial1’ [-Wimplicit-function-declaration]
+ factorial1();
+ ^~~~~~~~~~
+main.c:5:1: warning: implicit declaration of function ‘polin’ [-Wimplicit-function-declaration]
+ polin();
+ ^~~~~
+main.c:6:1: warning: implicit declaration of function ‘rev’ [-Wimplicit-function-declaration]
+ rev();
+ ^~~
+gcc -c factorial.c
+gcc -c palindrome.c
+gcc -c reverse.c
+gcc -o abc.exe big3.o main.o factorial.o palindrome.o reverse.o
+Finished: SUCCESS

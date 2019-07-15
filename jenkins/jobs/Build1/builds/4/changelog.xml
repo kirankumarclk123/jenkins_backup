@@ -1,0 +1,45 @@
+commit 2a6b683ab0840330ff4617f8f93ab806844ce332
+tree 809895ac8e98505e9b0178b6d8fcf9ef660d4977
+parent 473fea69f88daad49f07d46ed178eea6b64ba6b2
+author ec2-user <kirankumarclk@gmail.com> 2019-07-12 07:43:56 +0000
+committer ec2-user <kirankumarclk@gmail.com> 2019-07-12 07:43:56 +0000
+
+    deleting files
+
+
+
+:100644 000000 b61b9ac1caea1f66a78773833743e6b44b69087e 0000000000000000000000000000000000000000 D	big3.o
+:100644 000000 f308b1057d620038bf0b9c6a33cd39e960024c89 0000000000000000000000000000000000000000 D	main.o
+commit 473fea69f88daad49f07d46ed178eea6b64ba6b2
+tree 614481359d546afb301b8266fd00d77f353c138a
+parent 2baea9dd5c40f066d7152202e4cd59e4a362936b
+author ec2-user <kirankumarclk@gmail.com> 2019-07-12 07:35:14 +0000
+committer ec2-user <kirankumarclk@gmail.com> 2019-07-12 07:35:14 +0000
+
+    editing the makefile
+
+
+
+:100644 100644 ae1a4a768d8bb07b08139e37dc0abd6e91d39d67 a934d8d42e96e0914d62fc832bb4ab4236701791 M	makefile
+commit 2baea9dd5c40f066d7152202e4cd59e4a362936b
+tree cd1ff607cef822ee86ca12f12aef91fa5bbdc700
+parent 29f429f5db8f019abd2ab3c3426ed4fa3ab4e60e
+author ec2-user <kirankumarclk@gmail.com> 2019-07-12 07:31:44 +0000
+committer ec2-user <kirankumarclk@gmail.com> 2019-07-12 07:31:44 +0000
+
+    eding the file
+
+
+
+:100644 100644 0e9fb727bfb051f81dccf19c61a5e667abe1a010 10974fa045c95a5cc5b1ab951fd2093d17e8c4b7 M	main.c
+commit 29f429f5db8f019abd2ab3c3426ed4fa3ab4e60e
+tree 89dba64af766c39ebef2440242713a807c184206
+parent 56e8efba15d482960008d8e7aaee6b66df7562dc
+author ec2-user <kirankumarclk@gmail.com> 2019-07-12 07:30:11 +0000
+committer ec2-user <kirankumarclk@gmail.com> 2019-07-12 07:30:11 +0000
+
+    modified file
+
+
+
+:100644 100644 e6e4ba3ac756e6b0df18141672010025e5eaf61e 1aec79e2721b103c8137204fe3ad4762f92bc3f0 M	reverse.c

@@ -1,0 +1,23 @@
+Started by an SCM change
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Build1
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/kirankumarclk123/kiranrepo.git # timeout=10
+Fetching upstream changes from https://github.com/kirankumarclk123/kiranrepo.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/kirankumarclk123/kiranrepo.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision dad62b0be683fd88de8d3857cc86dc7956d52010 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f dad62b0be683fd88de8d3857cc86dc7956d52010
+Commit message: "palindrome.c"
+ > git rev-list --no-walk 0cd04af990dd6c8adbd747980f2001c4e6bc37ae # timeout=10
+[Build1] $ /bin/sh -xe /tmp/jenkins4710210916199402821.sh
++ cd /var/lib/jenkins/workspace/Build1
++ make
+gcc -c palindrome.c
+gcc -o abc.exe big3.o main.o factorial.o palindrome.o reverse.o
+Finished: SUCCESS

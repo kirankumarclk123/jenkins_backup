@@ -1,0 +1,11 @@
+commit fbb2205dc5032532248e9094f6811bbdf90df936
+tree fe174dcf849eeacdc14609d2c327bfc628f4c02d
+parent 2a6b683ab0840330ff4617f8f93ab806844ce332
+author kirankumarclk123 <52616610+kirankumarclk123@users.noreply.github.com> 2019-07-13 21:03:34 +0530
+committer GitHub <noreply@github.com> 2019-07-13 21:03:34 +0530
+
+    reverse.c
+
+    am modified print file
+
+:100644 100644 1aec79e2721b103c8137204fe3ad4762f92bc3f0 b0274786c92e34c3fe7156672ab8bf0d16f3ca9e M	reverse.c

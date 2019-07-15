@@ -1,0 +1,27 @@
+Started by user [8mha:////4C9QShmUdfYUoOJsAUXQUqqcteKIzZ5/psskdsG3H6/FAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYB/dLi1CL97MyixLzs0tzEIgDfy//OxQAAAA==[0mKirankumar S
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Build1
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/kirankumarclk123/kiranrepo.git
+ > git init /var/lib/jenkins/workspace/Build1 # timeout=10
+Fetching upstream changes from https://github.com/kirankumarclk123/kiranrepo.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/kirankumarclk123/kiranrepo.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/kirankumarclk123/kiranrepo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/kirankumarclk123/kiranrepo.git # timeout=10
+Fetching upstream changes from https://github.com/kirankumarclk123/kiranrepo.git
+ > git fetch --tags --progress https://github.com/kirankumarclk123/kiranrepo.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision c9ba696c0f8e7111eb942fb79c438f10caa114b0 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c9ba696c0f8e7111eb942fb79c438f10caa114b0
+Commit message: "Delete main.o"
+First time build. Skipping changelog.
+[Build1] $ /bin/sh -xe /tmp/jenkins3563177959888060555.sh
++ cd /var/lib/junkins/workspace/Build1/
+/tmp/jenkins3563177959888060555.sh: line 2: cd: /var/lib/junkins/workspace/Build1/: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

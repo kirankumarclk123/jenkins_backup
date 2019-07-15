@@ -1,0 +1,7 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Deploy_project
+[Deploy_project] $ /bin/sh -xe /tmp/jenkins6580704521337378472.sh
++ echo 'deploy is done'
+deploy is done
+Finished: SUCCESS
